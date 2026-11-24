@@ -1,0 +1,416 @@
+{
+  "conjunctions": [
+    {
+      "N": 1000,
+      "planes": 32,
+      "days": 30,
+      "count": 3950,
+      "poisson_sigma": 62.849025449882674,
+      "slow_lt_1kms": 90,
+      "gas_naive_uniform": 6519.028041386034,
+      "gas_latitude": 4134.93136992462,
+      "gas_latitude_corrected": 3835.7069498399205,
+      "ratio_to_naive": 0.6059185472011218,
+      "ratio_to_latitude_corrected": 1.0297971277927918,
+      "per_sat_mean": 7.9,
+      "per_sat_max": 45,
+      "runtime_s": 175.3511290550232
+    },
+    {
+      "N": 10000,
+      "planes": 100,
+      "days": 30,
+      "count": 397772,
+      "poisson_sigma": 630.6916837885212,
+      "slow_lt_1kms": 15705,
+      "gas_naive_uniform": 651902.8041386033,
+      "gas_latitude": 413493.1369924621,
+      "gas_latitude_corrected": 391984.50377718935,
+      "ratio_to_naive": 0.6101707148285688,
+      "ratio_to_latitude_corrected": 1.0147646046388108,
+      "per_sat_mean": 79.5544,
+      "per_sat_max": 986,
+      "runtime_s": 593.5731899738312
+    },
+    {
+      "N": 100000,
+      "planes": 316,
+      "days": 30,
+      "count": 39668099,
+      "poisson_sigma": 6298.261585548825,
+      "slow_lt_1kms": 1687983,
+      "gas_naive_uniform": 65190280.41386033,
+      "gas_latitude": 41349313.699246205,
+      "gas_latitude_corrected": 39469095.604722746,
+      "ratio_to_naive": 0.6084971371217791,
+      "ratio_to_latitude_corrected": 1.005042005453336,
+      "per_sat_mean": 793.36198,
+      "per_sat_max": 1926,
+      "runtime_s": 6828.039463996887
+    }
+  ],
+  "count_vs_N_loglog_slope": 2.000922146404282,
+  "delta_v": [
+    {
+      "N": 1000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 0.5,
+      "maneuvers_30d": 31,
+      "maneuvers_per_sat_per_year": 0.377425,
+      "mean_dv_per_maneuver_mm_s": 1.575136884192822,
+      "annual_dv_per_sat_m_s": 0.0005944960385164758
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 1.0,
+      "maneuvers_30d": 31,
+      "maneuvers_per_sat_per_year": 0.377425,
+      "mean_dv_per_maneuver_mm_s": 0.794990724969085,
+      "annual_dv_per_sat_m_s": 0.0003000493743714569
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 2.0,
+      "maneuvers_30d": 31,
+      "maneuvers_per_sat_per_year": 0.377425,
+      "mean_dv_per_maneuver_mm_s": 0.39737168186165167,
+      "annual_dv_per_sat_m_s": 0.00014997800702663388
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 0.5,
+      "maneuvers_30d": 148,
+      "maneuvers_per_sat_per_year": 1.8019,
+      "mean_dv_per_maneuver_mm_s": 3.16749006865672,
+      "annual_dv_per_sat_m_s": 0.005707500354712544
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 1.0,
+      "maneuvers_30d": 148,
+      "maneuvers_per_sat_per_year": 1.8019,
+      "mean_dv_per_maneuver_mm_s": 1.6004869190321886,
+      "annual_dv_per_sat_m_s": 0.0028839173794041007
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 2.0,
+      "maneuvers_30d": 148,
+      "maneuvers_per_sat_per_year": 1.8019,
+      "mean_dv_per_maneuver_mm_s": 0.7999747376774803,
+      "annual_dv_per_sat_m_s": 0.0014414744798210517
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 0.5,
+      "maneuvers_30d": 1014,
+      "maneuvers_per_sat_per_year": 12.34545,
+      "mean_dv_per_maneuver_mm_s": 8.10682190282951,
+      "annual_dv_per_sat_m_s": 0.10008236446028658
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 1.0,
+      "maneuvers_30d": 1014,
+      "maneuvers_per_sat_per_year": 12.34545,
+      "mean_dv_per_maneuver_mm_s": 4.23940507869794,
+      "annual_dv_per_sat_m_s": 0.0523373634288115
+    },
+    {
+      "N": 1000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 2.0,
+      "maneuvers_30d": 1014,
+      "maneuvers_per_sat_per_year": 12.34545,
+      "mean_dv_per_maneuver_mm_s": 2.118351288638747,
+      "annual_dv_per_sat_m_s": 0.026151999916325216
+    },
+    {
+      "N": 1000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 0.5,
+      "maneuvers_30d": 3950,
+      "maneuvers_per_sat_per_year": 48.09125,
+      "mean_dv_per_maneuver_mm_s": 15.721616616474465,
+      "annual_dv_per_sat_m_s": 0.7560721951070276
+    },
+    {
+      "N": 1000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 1.0,
+      "maneuvers_30d": 3950,
+      "maneuvers_per_sat_per_year": 48.09125,
+      "mean_dv_per_maneuver_mm_s": 8.0166374815238,
+      "annual_dv_per_sat_m_s": 0.3855301172833314
+    },
+    {
+      "N": 1000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 2.0,
+      "maneuvers_30d": 3950,
+      "maneuvers_per_sat_per_year": 48.09125,
+      "mean_dv_per_maneuver_mm_s": 4.007036371202553,
+      "annual_dv_per_sat_m_s": 0.1927033878865948
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 0.5,
+      "maneuvers_30d": 4271,
+      "maneuvers_per_sat_per_year": 5.199942500000001,
+      "mean_dv_per_maneuver_mm_s": 1.548363063752283,
+      "annual_dv_per_sat_m_s": 0.008051398900635706
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 1.0,
+      "maneuvers_30d": 4271,
+      "maneuvers_per_sat_per_year": 5.199942500000001,
+      "mean_dv_per_maneuver_mm_s": 0.8031813750554094,
+      "annual_dv_per_sat_m_s": 0.0041764969673590635
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 2.0,
+      "maneuvers_30d": 4271,
+      "maneuvers_per_sat_per_year": 5.199942500000001,
+      "mean_dv_per_maneuver_mm_s": 0.4013567533646741,
+      "annual_dv_per_sat_m_s": 0.0020870320394829867
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 0.5,
+      "maneuvers_30d": 16872,
+      "maneuvers_per_sat_per_year": 20.54166,
+      "mean_dv_per_maneuver_mm_s": 3.069619958203716,
+      "annual_dv_per_sat_m_s": 0.06305508951063495
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 1.0,
+      "maneuvers_30d": 16872,
+      "maneuvers_per_sat_per_year": 20.54166,
+      "mean_dv_per_maneuver_mm_s": 1.5652949857520493,
+      "annual_dv_per_sat_m_s": 0.03215375739702344
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 2.0,
+      "maneuvers_30d": 16872,
+      "maneuvers_per_sat_per_year": 20.54166,
+      "mean_dv_per_maneuver_mm_s": 0.7823376159274325,
+      "annual_dv_per_sat_m_s": 0.016070513311591903
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 0.5,
+      "maneuvers_30d": 102843,
+      "maneuvers_per_sat_per_year": 125.2113525,
+      "mean_dv_per_maneuver_mm_s": 7.6594726006062395,
+      "annual_dv_per_sat_m_s": 0.9590529237585996
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 1.0,
+      "maneuvers_30d": 102843,
+      "maneuvers_per_sat_per_year": 125.2113525,
+      "mean_dv_per_maneuver_mm_s": 3.9398069771320263,
+      "annual_dv_per_sat_m_s": 0.4933085601956376
+    },
+    {
+      "N": 10000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 2.0,
+      "maneuvers_30d": 102843,
+      "maneuvers_per_sat_per_year": 125.2113525,
+      "mean_dv_per_maneuver_mm_s": 1.9639611119149196,
+      "annual_dv_per_sat_m_s": 0.245910227080271
+    },
+    {
+      "N": 10000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 0.5,
+      "maneuvers_30d": 397772,
+      "maneuvers_per_sat_per_year": 484.28741,
+      "mean_dv_per_maneuver_mm_s": 15.28980285649044,
+      "annual_dv_per_sat_m_s": 7.404659024780357
+    },
+    {
+      "N": 10000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 1.0,
+      "maneuvers_30d": 397772,
+      "maneuvers_per_sat_per_year": 484.28741,
+      "mean_dv_per_maneuver_mm_s": 7.803875942212648,
+      "annual_dv_per_sat_m_s": 3.7793188680154732
+    },
+    {
+      "N": 10000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 2.0,
+      "maneuvers_30d": 397772,
+      "maneuvers_per_sat_per_year": 484.28741,
+      "mean_dv_per_maneuver_mm_s": 3.8972807564847334,
+      "annual_dv_per_sat_m_s": 1.8874040036008324
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 0.5,
+      "maneuvers_30d": 411597,
+      "maneuvers_per_sat_per_year": 50.11193475,
+      "mean_dv_per_maneuver_mm_s": 1.5218503486453747,
+      "annual_dv_per_sat_m_s": 0.07626286537058177
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 1.0,
+      "maneuvers_30d": 411597,
+      "maneuvers_per_sat_per_year": 50.11193475,
+      "mean_dv_per_maneuver_mm_s": 0.7723095315640491,
+      "annual_dv_per_sat_m_s": 0.03870192485254069
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.1,
+      "target_miss_km": 0.2,
+      "lead_days": 2.0,
+      "maneuvers_30d": 411597,
+      "maneuvers_per_sat_per_year": 50.11193475,
+      "mean_dv_per_maneuver_mm_s": 0.3855539474116184,
+      "annual_dv_per_sat_m_s": 0.019320854255295953
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 0.5,
+      "maneuvers_30d": 1639751,
+      "maneuvers_per_sat_per_year": 199.63968425000002,
+      "mean_dv_per_maneuver_mm_s": 3.043775857924377,
+      "annual_dv_per_sat_m_s": 0.6076584512037955
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 1.0,
+      "maneuvers_30d": 1639751,
+      "maneuvers_per_sat_per_year": 199.63968425000002,
+      "mean_dv_per_maneuver_mm_s": 1.5446406219091928,
+      "annual_dv_per_sat_m_s": 0.3083715660376749
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.2,
+      "target_miss_km": 0.4,
+      "lead_days": 2.0,
+      "maneuvers_30d": 1639751,
+      "maneuvers_per_sat_per_year": 199.63968425000002,
+      "mean_dv_per_maneuver_mm_s": 0.7713776994388531,
+      "annual_dv_per_sat_m_s": 0.15399760035346402
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 0.5,
+      "maneuvers_30d": 10126162,
+      "maneuvers_per_sat_per_year": 1232.8602235,
+      "mean_dv_per_maneuver_mm_s": 7.6088383234870935,
+      "annual_dv_per_sat_m_s": 9.380634116069663
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 1.0,
+      "maneuvers_30d": 10126162,
+      "maneuvers_per_sat_per_year": 1232.8602235,
+      "mean_dv_per_maneuver_mm_s": 3.8611638679955305,
+      "annual_dv_per_sat_m_s": 4.760275349267094
+    },
+    {
+      "N": 100000,
+      "threshold_km": 0.5,
+      "target_miss_km": 1.0,
+      "lead_days": 2.0,
+      "maneuvers_30d": 10126162,
+      "maneuvers_per_sat_per_year": 1232.8602235,
+      "mean_dv_per_maneuver_mm_s": 1.9283426752570703,
+      "annual_dv_per_sat_m_s": 2.37737698160202
+    },
+    {
+      "N": 100000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 0.5,
+      "maneuvers_30d": 39668099,
+      "maneuvers_per_sat_per_year": 4829.59105325,
+      "mean_dv_per_maneuver_mm_s": 15.214904848694871,
+      "annual_dv_per_sat_m_s": 73.48176833330679
+    },
+    {
+      "N": 100000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 1.0,
+      "maneuvers_30d": 39668099,
+      "maneuvers_per_sat_per_year": 4829.59105325,
+      "mean_dv_per_maneuver_mm_s": 7.720411941174227,
+      "annual_dv_per_sat_m_s": 37.28643243849951
+    },
+    {
+      "N": 100000,
+      "threshold_km": 1.0,
+      "target_miss_km": 2.0,
+      "lead_days": 2.0,
+      "maneuvers_30d": 39668099,
+      "maneuvers_per_sat_per_year": 4829.59105325,
+      "mean_dv_per_maneuver_mm_s": 3.8560432947462093,
+      "annual_dv_per_sat_m_s": 18.623112197250947
+    }
+  ],
+  "dt_s": 10.0
+}

@@ -1,0 +1,21 @@
+{
+  "cfg": {
+    "a_days": 30,
+    "sso_days": 5,
+    "b_days": 365,
+    "b_check_days": [
+      0,
+      160
+    ],
+    "b_check_len": 7,
+    "c_days": 30,
+    "seed": 1,
+    "populations": [
+      1000,
+      10000,
+      100000
+    ]
+  },
+  "dt": 10.0,
+  "parts": "CD"
+}

@@ -1,0 +1,93 @@
+{
+  "kepler_check": {
+    "days": 30,
+    "period_kepler_s": 5738.992815014797,
+    "period_numeric_s": 5738.992814980599,
+    "period_rel_err": 5.958869680389328e-12,
+    "pos_err_km": 0.00011733989133586671,
+    "vel_err_kms": 1.2846716651817857e-07,
+    "energy_rel_drift": 9.306260517381699e-12,
+    "angmom_rel_drift": 4.652965818161123e-12,
+    "nfev": 283187
+  },
+  "j2_check": {
+    "days": 30,
+    "raan_rate_numeric_deg_day": -4.4941493826524725,
+    "raan_rate_analytic_deg_day": -4.4911604303299075,
+    "raan_rate_rel_diff": 0.0006655189385755718,
+    "nodal_period_numeric_s": 5735.428667631228,
+    "nodal_period_analytic_s": 5735.440599828102,
+    "kepler_period_s": 5738.992815014797,
+    "a_mean_at_node_km": 6928.137000122288
+  },
+  "full_force_53deg": {
+    "days": 30,
+    "inc_deg": 53.0,
+    "a_mean_start_km": 6928.107584795842,
+    "raan_rate_numeric_deg_day": -4.496186313009449,
+    "raan_rate_J2_analytic_deg_day": -4.49122760129791,
+    "nodal_period_numeric_s": 5734.32072869547,
+    "nodal_period_J2_analytic_s": 5735.4040404229545,
+    "kepler_period_s": 5738.992815014797,
+    "a_decay_numeric_m_day": -59.89784019333407,
+    "a_decay_analytic_m_day": -58.613874273911605,
+    "a_drop_total_km": -1.793328262232535,
+    "nfev": 339137
+  },
+  "sso_osculating_550": {
+    "mean_a_init": false,
+    "i_analytic_deg": 97.59295478849197,
+    "i_numeric_deg": 97.55749010739858,
+    "residual_rate_deg_day": 4.6036985715251445e-11,
+    "target_rate_deg_day": 0.9856473320990838,
+    "arc_days": 5,
+    "iterations": [
+      [
+        97.59295478849197,
+        0.004598094279283184
+      ],
+      [
+        97.64295478849196,
+        0.011080083773040622
+      ],
+      [
+        97.5574865554463,
+        -4.6049348456948164e-07
+      ],
+      [
+        97.55749010739858,
+        4.6036985715251445e-11
+      ]
+    ]
+  },
+  "sso_mean_550": {
+    "mean_a_init": true,
+    "i_analytic_deg": 97.59295478849197,
+    "i_numeric_deg": 97.59363179499366,
+    "residual_rate_deg_day": -3.005938657539174e-13,
+    "target_rate_deg_day": 0.9856473320990838,
+    "arc_days": 5,
+    "iterations": [
+      [
+        97.59295478849197,
+        -8.737143253260156e-05
+      ],
+      [
+        97.64295478849196,
+        0.006365042070422446
+      ],
+      [
+        97.59363183307762,
+        4.914665939448318e-09
+      ],
+      [
+        97.59363179499366,
+        -3.005938657539174e-13
+      ]
+    ]
+  },
+  "lifetime_rough": {
+    "lifetime_days": 1051.2402178602551,
+    "h_end_km": 150.0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "inclined53": {
+    "inc_deg": 53.0,
+    "raan0_deg": 0.0,
+    "nodal_period_min": 95.59084361752126,
+    "beta_min_deg": -76.24502694109626,
+    "beta_max_deg": 74.54800362369843,
+    "max_umbra_min": 35.449864355557764,
+    "mean_umbra_frac": 0.30636671232876717,
+    "days_with_eclipse": 340,
+    "days": 365,
+    "max_abs_conical_minus_cylindrical_frac": 0.01336985778369501
+  },
+  "dawndusk_sso": {
+    "inc_deg": 97.59363179499366,
+    "raan0_deg": 11.493661407430615,
+    "nodal_period_min": 95.77248809805619,
+    "beta_min_deg": 58.96824355221167,
+    "beta_max_deg": 87.7819501830745,
+    "max_umbra_min": 21.309378601817503,
+    "mean_umbra_frac": 0.04846684931506849,
+    "days_with_eclipse": 102,
+    "days": 365,
+    "max_abs_conical_minus_cylindrical_frac": 0.04363345124236331
+  },
+  "propagated_check": {
+    "n_orbits": 420,
+    "max_abs_umbra_diff_min": 0.26928928636403526,
+    "mean_abs_umbra_diff_min": 0.07698085354675992
+  }
+}

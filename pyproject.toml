@@ -1,0 +1,20 @@
+[project]
+name = "orbitprop"
+version = "0.1.0"
+description = "Cartesian DOP853 orbit propagator with J2/J3/drag/SRP; eclipses, shell conjunctions, avoidance delta-v"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2", "scipy>=1.13", "matplotlib>=3.8", "numba>=0.60"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
