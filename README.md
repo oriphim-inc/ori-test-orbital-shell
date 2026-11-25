@@ -2,7 +2,7 @@
 
 # Cartesian orbit propagator: 550 km orbits, eclipses, shell conjunctions, avoidance Δv
 
-By held-out runner, with Ori.
+By Oriphim, with Ori.
 
 **Asked:** build a Cartesian propagator with a high-order integrator (DOP853) and J2, J3,
 drag and SRP. Use it at 550 km for: (A) Kepler checks, nodal precession, period, decay and

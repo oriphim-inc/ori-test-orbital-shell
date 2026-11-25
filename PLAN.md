@@ -1,6 +1,6 @@
 # PLAN — Cartesian orbit propagator, eclipses, shell conjunctions, avoidance Δv
 
-Requested by: held-out runner. Planned by Ori (no attachments; all inputs are standard values
+Requested by: Oriphim. Planned by Ori (no attachments; all inputs are standard values
 cited below or labelled ASSUMPTION).
 
 Units inside the code: km, s, kg. Frame: Earth-centred inertial (mean equator/equinox of
